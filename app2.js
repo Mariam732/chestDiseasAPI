@@ -11,7 +11,7 @@ const bcrypt = require('bcrypt');
 
 //validation
 const{check,validationResult}= require ('express-validator');
-const validation= require('..//API project/validation/SignUp.validation')
+const validation= require('../validation/SignUp.validation');
 
 'use strict';
 var multer = require('multer');
